@@ -28,7 +28,7 @@ body {
 /* Header */
 /* LOGO */
 .page-header {
-  background-color: #ffffff;
+  background-color: var(--primery-text-color-theme-dark);
 }
 
 .logo-link-header {
@@ -39,7 +39,7 @@ body {
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #4d5ae5;
+  color: var(--accent-color);
 }
 
 .logo-header-studio {
@@ -50,7 +50,7 @@ body {
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #2e2f42;
+  color: var(--primery-text-color-theme-light);
 }
 
 /* Navigation */
@@ -59,6 +59,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  color: var(--primery-text-color-theme-light);
 }
 
 .menu-link:hover,
@@ -73,7 +74,6 @@ body {
 }
 
 .contact-menu-link {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -89,7 +89,7 @@ body {
 /* Hero */
 
 .section-hero {
-  background-color: #2e2f42;
+  background-color: var(--primery-text-color-theme-light);
 }
 
 .text-hero {
@@ -103,7 +103,6 @@ body {
 
 .modal-btn {
   font-family: var(--primary-font);
-
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -111,7 +110,7 @@ body {
   align-items: center;
   letter-spacing: 0.04em;
   color: var(--primery-text-color-theme-dark);
-  background: #4d5ae5;
+  background: var(--accent-color);
   cursor: pointer;
 }
 
@@ -131,7 +130,6 @@ body {
 }
 
 .information-subtitle-text {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -152,7 +150,7 @@ body {
 /* Section 3 */
 
 .section-team {
-  background-color: #f4f4fd;
+  background-color: var(--secondary-text-color-theme-dark);
 }
 
 .section-team-title {
@@ -165,7 +163,7 @@ body {
 }
 
 .section-team-item {
-  background-color: #ffffff;
+  background-color: var(--primery-text-color-theme-dark);
 }
 
 .section-team-subtitle {
@@ -177,7 +175,6 @@ body {
 }
 
 .section-team-text {
-  font-weight: 400;
   font-size: 16px;
   line-height: 24px;
   text-align: center;
@@ -187,12 +184,11 @@ body {
 /* footer */
 
 .page-footer {
-  background-color: #2e2f42;
+  background-color: var(--primery-text-color-theme-light);
 }
 
 .logo-footer-studio {
   font-family: "Raleway", sans-serif;
-
   font-weight: 800;
   font-size: 18px;
   line-height: 21px;
@@ -200,11 +196,10 @@ body {
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #f4f4fd;
+  color: var(--secondary-text-color-theme-dark);
 }
 
 .footer-text {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -217,7 +212,6 @@ body {
 
 .modal-btn-portfolio {
   font-family: "Roboto", sans-serif;
-
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -225,21 +219,21 @@ body {
   align-items: center;
   text-align: center;
   letter-spacing: 0.04em;
-  color: #4d5ae5;
-  background-color: #f4f4fd;
+  color: var(--accent-color);
+  background-color: var(--secondary-text-color-theme-dark);
   cursor: pointer;
 }
 
 .modal-btn-portfolio:hover,
 .modal-btn-portfolio:focus {
-  color: #ffffff;
+  color: var(--primery-text-color-theme-dark);
   background-color: var(--accent-color);
 }
 
 /* two list */
 
 .portfolio-work-item {
-  background-color: #ffffff;
+  background-color: var(--primery-text-color-theme-dark);
 }
 
 .portfolio-work-subject {
