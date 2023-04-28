@@ -9,6 +9,7 @@
   --primery-text-color-theme-light: #2e2f42;
   --secondary-text-color-theme-light: #434455;
   --accent-color: #404bbf;
+  --logo-color: #4d5ae5;
 }
 
 body {
@@ -32,6 +33,7 @@ body {
 }
 
 .logo-link-header {
+  font-family: var(--secondary-font);
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
@@ -39,10 +41,11 @@ body {
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--accent-color);
+  color: var(--logo-color);
 }
 
 .logo-header-studio {
+  font-family: var(--secondary-font);
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
@@ -110,13 +113,13 @@ body {
   align-items: center;
   letter-spacing: 0.04em;
   color: var(--primery-text-color-theme-dark);
-  background: var(--accent-color);
+  background-color: var(--logo-color);
   cursor: pointer;
 }
 
 .modal-btn:hover,
 .modal-btn:focus {
-  background-color: var(--accent-color);
+  background-color: var(--logo-color);
 }
 
 /* Section 1 */
@@ -127,6 +130,7 @@ body {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  color: var(--primery-text-color-theme-light);
 }
 
 .information-subtitle-text {
@@ -160,6 +164,7 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  color: var(--primery-text-color-theme-light);
 }
 
 .section-team-item {
@@ -172,6 +177,7 @@ body {
   line-height: 1.2;
   text-align: center;
   letter-spacing: 0.02em;
+  color: var(--primery-text-color-theme-light);
 }
 
 .section-team-text {
@@ -188,7 +194,7 @@ body {
 }
 
 .logo-footer-studio {
-  font-family: "Raleway", sans-serif;
+  font-family: var(--secondary-font);
   font-weight: 800;
   font-size: 18px;
   line-height: 21px;
@@ -220,7 +226,7 @@ body {
   align-items: center;
   text-align: center;
   letter-spacing: 0.04em;
-  color: var(--accent-color);
+  color: var(--logo-color);
   background-color: var(--secondary-text-color-theme-dark);
   cursor: pointer;
 }
@@ -228,7 +234,7 @@ body {
 .modal-btn-portfolio:hover,
 .modal-btn-portfolio:focus {
   color: var(--primery-text-color-theme-dark);
-  background-color: var(--accent-color);
+  background-color: var(--logo-color);
 }
 
 /* two list */
